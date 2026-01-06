@@ -9,7 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        // Created tabs to access the  different funtions of the app
+        TabView{
+            Tab("Home",systemImage: "house"){
+                Text("Home")
+            }
+            Tab("Sessions",systemImage: "magnifyingglass"){
+                Text("Sessions")
+            }
+            Tab("Start",systemImage: "play.circle"){
+                Text("Start a session")
+            }
+        }
     }
 }
 
