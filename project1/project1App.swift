@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct project1App: App {
+    @StateObject private var store = SessionStore()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                //enviormentObject needed for the actual app
+                .environmentObject(store)
         }
     }
 }

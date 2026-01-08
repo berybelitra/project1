@@ -117,12 +117,12 @@
 		61FFC1A32F0C34BA0070850E /* views */ = {
 			isa = PBXGroup;
 			children = (
-				61FFC19E2F0C34BA0070850E /* HistoryView.swift */,
-				61FFC19F2F0C34BA0070850E /* LoginView.swift */,
-				61FFC1A02F0C34BA0070850E /* LogSessView.swift */,
-				61FFC1A12F0C34BA0070850E /* ProfileView.swift */,
-				61FFC1A22F0C34BA0070850E /* StatsView.swift */,
 				61FFC1B62F0C35E90070850E /* ContentView.swift */,
+				61FFC1A02F0C34BA0070850E /* LogSessView.swift */,
+				61FFC19E2F0C34BA0070850E /* HistoryView.swift */,
+				61FFC1A22F0C34BA0070850E /* StatsView.swift */,
+				61FFC1A12F0C34BA0070850E /* ProfileView.swift */,
+				61FFC19F2F0C34BA0070850E /* LoginView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";

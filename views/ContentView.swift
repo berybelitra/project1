@@ -9,21 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        // Created tabs to access the  different funtions of the app
+        // LogSession, History, Stats, Profile are already created views so we will use those files as our tabs
         TabView{
-            Tab("Home",systemImage: "house"){
-                Text("Home")
+            Tab("Log",systemImage: "plus.circle"){
+                LogSessView()
             }
-            Tab("Sessions",systemImage: "magnifyingglass"){
-                Text("Sessions")
+            Tab("History",systemImage: "list.bullet"){
+                HistoryView()
             }
-            Tab("Start",systemImage: "play.circle"){
-                Text("Start a session")
+            Tab("Stats",systemImage: "chart.bar"){
+                StatsView()
+            }
+            Tab("Profile", systemImage: "person"){
+                ProfileView()
             }
         }
     }
+    
 }
 
-#Preview {
-    ContentView()
-}
