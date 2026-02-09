@@ -38,4 +38,9 @@ final class SessionStore: ObservableObject {
             .map { $0.duration }
             .reduce(0, +)
     }
+    //allows for other views to give permission to change data in this case delee data
+    func deleteSessions(at offsets: IndexSet) {
+        sessions.remove(atOffsets: offsets)
+    }
+
 }
